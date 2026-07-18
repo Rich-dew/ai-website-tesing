@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AETHER — Design in Motion</title>
+    <meta name="description" content="Experience Aether, a premium product showcase combining interactive design, sticky scroll kinematics, and stunning visual rendering.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;300;400;500;700;900&family=Playfair+Display:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet">
+    <!-- Main stylesheet -->
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+
+    <!-- Preloader Screen -->
+    <div id="preloader" class="preloader">
+        <div class="loader-content">
+            <span class="brand-name">AETHER</span>
+            <div class="progress-container">
+                <div id="progress-bar" class="progress-bar"></div>
+            </div>
+            <div class="loader-meta">
+                <span class="loader-status">Preloading cinematic sequence...</span>
+                <span id="loader-percent" class="loader-percent">00%</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="nav-logo">AETHER</a>
+            <nav class="nav-links">
+                <a href="#overview" class="nav-link active">Showcase</a>
+                <a href="#specs" class="nav-link">Specs</a>
+                <a href="#design" class="nav-link">Design</a>
+                <a href="#cta" class="nav-link">Reserve</a>
+            </nav>
+            <button class="nav-btn">Reserve Now</button>
+        </div>
+    </header>
+
+    <!-- Main Container -->
+    <main>
+        
+        <!-- Sticky Scroll Animation Section -->
+        <section id="overview" class="scroll-animation-wrapper">
+            <div class="sticky-canvas-container">
+                <canvas id="animation-canvas"></canvas>
+                <div class="overlay-gradient"></div>
+            </div>
+        </section>
+
+        <!-- Specs Section -->
+        <section id="specs" class="content-section">
+            <div class="section-content glass-card">
+                <span class="tag">01 / ENGINEERING</span>
+                <h2>Precision Kinematics</h2>
+                <p>Every curve, corner, and surface has been optimized to follow fluid aerodynamic paths. The animated sequences flow dynamically, translating your scroll into high-fidelity physical responses.</p>
+                <ul class="spec-list">
+                    <li><strong>223</strong> High-resolution frames</li>
+                    <li><strong>60fps</strong> Smooth interpolation</li>
+                    <li><strong>100%</strong> Vector-aligned details</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Design Section -->
+        <section id="design" class="content-section">
+            <div class="section-content glass-card wide-card">
+                <span class="tag">02 / ARCHITECTURE</span>
+                <h2>Structural Synergy &amp; Integration</h2>
+                <p>Beneath the sleek exterior lies a matrix of coordinated design patterns. The motion highlights critical interface boundaries, offering a glimpse into the internal layout and mechanical architecture.</p>
+                
+                <div class="spec-grid">
+                    <div class="spec-item">
+                        <span class="spec-val">0.05s</span>
+                        <span class="spec-lbl">Response Delay</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-val">8K</span>
+                        <span class="spec-lbl">Source Clarity</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-val">60FPS</span>
+                        <span class="spec-lbl">Damped Easing</span>
+                    </div>
+                    <div class="spec-item">
+                        <span class="spec-val">100%</span>
+                        <span class="spec-lbl">Adaptive Scale</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section id="cta" class="content-section">
+            <div class="section-content text-center">
+                <h1 class="cta-heading">Aether awaits.</h1>
+                <p class="cta-sub">Begin your journey today and define the rules of interactive performance.</p>
+                <div class="cta-buttons">
+                    <button class="btn btn-primary">Pre-order Aether</button>
+                    <button class="btn btn-secondary">Watch Showcase</button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <span class="footer-logo">AETHER</span>
+            <span class="footer-copy">&copy; 2026 AETHER. All rights reserved. Created for showcase.</span>
+        </div>
+    </footer>
+
+    <!-- Script file -->
+    <script src="index.js"></script>
+</body>
+</html>

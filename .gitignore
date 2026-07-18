@@ -1,0 +1,19 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Archives and large backups
+*.zip
+*.tar
+*.gz
+
+# Local dev server / IDE files
+.vscode/
+.idea/
+.gemini/
+.agents/
+
+# Agent markdown logs
+task.md
+implementation_plan.md
+walkthrough.md
